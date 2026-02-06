@@ -6,5 +6,8 @@ public class Monthly_CC {
         double monthlyInterest = balance * interestRate;
         balance += monthlyInterest;
         System.out.println("Balance after one month is: $" + balance);
+        monthlyInterest = balance * interestRate;
+        balance += monthlyInterest;
+        System.out.println("Balance after two months is: $" + balance);
     }
 }
