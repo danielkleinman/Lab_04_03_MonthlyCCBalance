@@ -1,0 +1,10 @@
+public class Monthly_CC {
+    public static void main(String[] args) {
+        double balance = 5000.00;
+        double interestRate = 0.17;
+
+        double monthlyInterest = balance * interestRate;
+        balance += monthlyInterest;
+        System.out.println("Your monthly balance is:" + balance);
+    }
+}
